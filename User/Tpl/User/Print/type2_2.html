@@ -1,0 +1,68 @@
+<!-- <h3>电子屏申请</h3> -->
+<include file="Print:header"/>
+
+
+<script>
+	var app_type=2;
+	var Json=eval("({$json})");
+	var dSuggestion="{$result['asuggestion']}";
+	var Sstatus="{$result['astatus']}";
+	var id="{$result['aid']}";
+</script>
+
+<div class="span8">
+  
+<div class="table-title">
+	<h3>东南大学学生团体电子屏申请表</h3>
+</div>
+
+<div class="control-group">
+    <table class="table table-bordered table-line-style">
+      <tbody>
+        <tr>
+          <td id="table-lable">学生团体</td>
+          <td ><span name="xstt" id="xstt" ></span></td>
+          <td id="table-lable">活动编号</td>
+          <td ><span name="hdid" id="hdid"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable" width="120px">申请人</td>
+          <td width="300px"><span name="sqr" id="sqr"></span></td>
+          <td id="table-lable" width="120px">联系方式</td>
+          <td width="300px"><span name="lxfs" id="lxfs"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动名称</td>
+          <td><span name="hdmc" id="hdmc"></span></td>
+          <td id="table-lable">电子屏地点</td>
+          <td><span name="dzpdd" id="dzpdd"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="5">电子屏简要内容</td>
+          <td colspan="3" rowspan="5"><span class="input-xlarge span8" name="hdcd" id="hdcd" rows="6"></span></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+        <tr>
+          <td id="table-lable">申请时间</td>
+          <td colspan="3">
+          	<span name="sqsjb" id="sqsjb"></span>至
+            <span name="sqsje" id="sqsje"></span>
+            <span id="alert"></span>
+          </td>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">学生团体联合会意见</td>
+          <td rowspan="2" colspan="3"></td>
+        </tr>
+        <tr>
+        </tr>
+
+      </tbody>
+    </table>
+    
+</div>
+
+<include file="Print:footer"/>

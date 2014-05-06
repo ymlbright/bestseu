@@ -1,0 +1,80 @@
+<include file="Common:header" />
+<script>
+	var UserAddURL="{:U('/Admin/User/add')}";
+</script>
+<div class="pull-right"><button class="btn btn-primary" id="add_user">添加用户</button></div>
+<div class="span12">
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td width=50px>uid</td>
+                <td width=50px>ykt</td>
+                <td width=80px>name</td>
+                <td width=100px>logintime</td>
+                <td width=100px>loginip</td>
+                <td width=100px>power</td>
+                <td width=100px>action</td>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="user" id="v">
+      	<tr>
+        	<td>{$v['uid']}</td>
+        	<td>{$v['ykt']} </td>
+        	<td>{$v['name']} </td>
+          	<td>{$v['logintime']|date='Y-m-d H:i:s',###}</td>
+          	<td>{$v['loginip']} </td>
+          	<td>{$v['power']} </td>
+          	<td><a href="{:U('/Admin/User/del?id='.$v['uid'])}">删除</a></td>
+        </tr>
+       </volist>
+      </tbody>
+    </table>
+</div>
+<div class="pagination span12">{$page}</div>
+
+
+<div id="userModal" class="modal hide fade">
+    <div class="modal-header">
+        <a href="#" class="close" data-dismiss="modal">&times;</a>
+        <h3>添加新用户</h3>
+    </div>
+    <div id="modalcontent" class="modal-body">
+    	<div class="control-group">
+		    <label class="control-label" for="sykt">一卡通</label>
+		    <div class="controls">
+		      <input type="text" id="sykt" placeholder="登录名">
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="sxh">学&nbsp;&nbsp;&nbsp;&nbsp;号</label>
+		    <div class="controls">
+		      <input type="text" id="sxh">
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="sxm">姓&nbsp;&nbsp;&nbsp;&nbsp;名</label>
+		    <div class="controls">
+		      <input type="text" id="sxm">
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="spwd">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+		    <div class="controls">
+		      <input type="text" id="spwd">
+		    </div>
+		</div>
+      	<div class="control-group">
+		    <label class="control-label" for="sqx">权&nbsp;&nbsp;&nbsp;&nbsp;限</label>
+		    <div class="controls">
+		      <input type="text" id="sqx" value="5" placeholder="1-100"><br/>用户(1-10)|社团(20-40)|团联(50-90)|管理员(100)"
+		    </div>
+		</div>
+    </div>
+    <div class="modal-footer">
+      <button id="btn_user_add" class="btn">添加</button>
+    </div>
+</div>
+
+
+<include file="Common:footer" />

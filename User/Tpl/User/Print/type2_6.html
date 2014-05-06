@@ -1,0 +1,83 @@
+<!-- <h3>宣传场地申请</h3> -->
+<include file="Print:header"/>
+
+<script>
+	var app_type=6;
+	var Json=eval("({$json})");
+	var dSuggestion="{$result['asuggestion']}";
+	var Sstatus="{$result['astatus']}";
+	var id="{$result['aid']}";
+</script>
+
+
+<div class="span8">
+
+<div class="table-title">
+	<h3>学生团体宣传场地申请表</h3>
+</div>
+
+<div class="control-group">
+      <table class="table table-bordered table-line-style">
+      <tbody>
+      	
+        <tr>
+          <td id="table-lable" width="120px">学生团体</td>
+          <td ><span name="xstt" id="xstt"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动名称</td>
+          <td><span name="hdmc" id="hdmc"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动编号</td>
+          <td><span name="hdid" id="hdid"></td>
+        </tr>
+        <tr>
+          <td id="table-lable" width="120px">负责人</td>
+          <td width="300px">
+          	<span name="fzr" id="fzr"></span>
+            联系方式:<span name="lxfs" id="lxfs"></span>
+          </td>
+         </tr>
+         <tr>
+          <td id="table-lable">宣传方式</td>
+          <td>
+            <label class="radio inline">
+              <input type="radio" name="xcfs" id="xcfshf" value="横幅" checked>横幅
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="xcfs" id="xcfsph" value="喷绘">喷绘
+            </label>
+          </td>
+        </tr>
+        <tr>
+          <td id="table-lable">悬挂场地</td>
+          <td><span name="xgcd" id="xgcd"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">起迄时间</td>
+          <td>
+            <span name="qqsj" id="qqsj"></span>至
+            <span name="qqsj" id="qqsj"></span>
+          </td>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">校团委意见</td>
+          <td rowspan="2"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">保卫处意见</td>
+          <td rowspan="2"></td>
+        </tr>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+    
+
+</div>
+</div>
+
+<include file="Print:footer"/>

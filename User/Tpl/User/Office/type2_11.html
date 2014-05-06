@@ -1,0 +1,35 @@
+<!-- <h3>社团报名审核</h3> -->
+
+<div class="span10">
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td >姓名(性别)</td>
+                <td >院系</td>
+                <td >联系方式</td>
+                <td >时间</td>
+                <td >操作</td>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="signup" id="s">
+      	<tr>
+        	<td >{:a_getuname($s['uid'])}({$s['scontent1']})</td>
+        	<td >{$s['scontent2']} </td>
+            <td >{$s['scontent3']} </td>
+            <td >{$s['sdate']|date='Y-m-d D',###}</td>
+            <td >
+              <switch name="s['sstatus']">
+                <case value="0"><a href="{:U('/Office/ShowDetial?type=11&gp=2&index=2&da='.$s['sid'])}">详细</a></case>
+                <case value="1"><a href="{:U('/Office/ShowDetial?type=11&gp=2&index=2&da='.$s['sid'])}">详细</a>(已通过)&nbsp;&nbsp;
+                  <a href="{:U('/Print/ShowDetial?type=11&gp=2&index=2&da='.$s['sid'])}">打印</a>
+                </case>
+                <case value="2"><a href="{:U('/Office/ShowDetial?type=11&gp=2&index=2&da='.$s['sid'])}">详细</a>(已拒绝)</case>
+              </switch>
+            </td>
+        </tr>
+       </volist>
+      </tbody>
+    </table>
+    <div class="pagination">{$page}</div>
+</div>

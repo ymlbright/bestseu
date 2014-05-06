@@ -1,0 +1,27 @@
+<include file="Common:header" />
+
+<div class="span12">
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td width=80px>名称</td>
+                <td width=160px>简介</td>
+                <td width=80px>时间</td>
+                <td width=100px>承办方</td>
+                <if condition="$_SESSION['user_power'] gt 49"><td width=80px>操作</td></if>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="activity" id="v">
+      	<tr>
+        	<td>{$v['aname']}</td>
+        	<td>{$v['acontent1']} </td>
+          <td>{$v['acontent2']|date='Y-m-d D',###}</td>
+          <td>{:a_getcname($v['cid'])} </td>
+          <if condition="$_SESSION['user_power'] gt 49"><td><a href="{:U('/Activity/edit?id='.$v['aidentifier'])}">修改</a></td></if>
+        </tr>
+       </volist>
+      </tbody>
+    </table>
+</div>
+<include file="Common:footer" />

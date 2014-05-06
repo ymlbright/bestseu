@@ -1,0 +1,11 @@
+<include file="Common:header" />
+
+<if condition="$del eq 1">
+	<h3>删除成功,页面将在3秒后跳转...</h3>
+    <a href="{:U('/Community/ShowSignUp')}">点击此处立即跳转</a>
+<else />
+	<h3>删除失败,请稍后重试</h3>
+    <a href="{:U('/Community/ShowSignUp')}">返回</a>
+</if>
+
+<include file="Common:footer" />

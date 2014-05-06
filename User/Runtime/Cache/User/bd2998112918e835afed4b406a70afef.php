@@ -1,0 +1,126 @@
+<?php if (!defined('THINK_PATH')) exit();?><!-- <h3>活动图片管理正在建设中...</h3> -->
+<script src="__PUBLIC__/js/ajaxfileupload.js"></script>
+<script>
+  var FormUploadURL="<?php echo U('/Upload/Photo');?>";
+  var FormSubmitURL="<?php echo U('/Upload/Updata');?>";
+</script>
+
+  <fieldset>
+    <legend>图片上传</legend>
+        Tips:图片上传大小限制为1MB<br/><br/>
+        <div class="row">
+          <div class="span2 offset0">
+              <h4 >图片1:</h4>
+              <div class="controls">
+                <div class="span1">
+                  <ul class="thumbnails">
+                    <li class="span2">
+                      <div class="thumbnail pull-left">
+                        <?php if($cpic['p1'] == ''): ?><img id="imgp1" src="__PUBLIC__/img/160x120.gif" alt="">
+                        <?php else: ?>
+                          <img id="imgp1" src="<?php echo c_getpicl($cpic['p1']);?>" alt=""><?php endif; ?>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <br/><br/><br/><br/><br/><br/><br/><br/>
+              <button id="btn_upload1" type="button" class="btn">上传</button>
+          </div>
+          <div class="span2 offset1">
+              <h4 >图片2:</h4>
+              <div class="controls">
+                <div class="span1">
+                  <ul class="thumbnails">
+                    <li class="span2">
+                      <div class="thumbnail pull-left">
+                        <?php if($cpic['p2'] == ''): ?><img id="imgp2" src="__PUBLIC__/img/160x120.gif" alt="">
+                        <?php else: ?>
+                          <img id="imgp2" src="<?php echo c_getpicl($cpic['p2']);?>" alt=""><?php endif; ?>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <br/><br/><br/><br/><br/><br/><br/><br/>
+              <button id="btn_upload2" type="button" class="btn">上传</button>
+          </div>
+          <div class="span2 offset1">
+              <h4 >图片3:</h4>
+              <div class="controls">
+                <div class="span1">
+                  <ul class="thumbnails">
+                    <li class="span2">
+                      <div class="thumbnail pull-left">
+                        <?php if($cpic['p3'] == ''): ?><img id="imgp3" src="__PUBLIC__/img/160x120.gif" alt="">
+                        <?php else: ?>
+                          <img id="imgp3" src="<?php echo c_getpicl($cpic['p3']);?>" alt=""><?php endif; ?>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <br/><br/><br/><br/><br/><br/><br/><br/>
+              <button id="btn_upload3" type="button" class="btn">上传</button>
+          </div>
+
+          
+        </div>
+    <fieldset>
+    <legend>图片描述</legend>
+      <div class="span10">
+            <form id="submitForm" class="form-horizontal" action="#" onsubmit="return MsgPicSubmit();">
+              <div class="control-group">
+              <label class="control-label" for="dis1">图片1:</label>
+              <div class="controls">
+                <input type="text" class="input-large" name="dis1" id="dis1" value="<?php echo ($cpic['dis1']); ?>">
+                <p class="help-block"></p>
+              </div>
+              </div>
+              <div class="control-group">
+              <label class="control-label" for="dis2">图片2:</label>
+              <div class="controls">
+                <input type="text" class="input-large" name="dis2" id="dis2" value="<?php echo ($cpic['dis2']); ?>">
+                <p class="help-block"></p>
+              </div>
+              </div>
+              <div class="control-group">
+              <label class="control-label" for="dis3">图片3:</label>
+              <div class="controls">
+                <input type="text" class="input-large" name="dis3" id="dis3" value="<?php echo ($cpic['dis3']); ?>">
+                <p class="help-block"></p>
+              </div>
+              </div>
+              <div class="form-actions">
+              <div class="pull-right">
+              <button type="submit" class="btn btn-primary">保存</button>
+              <button type="reset" class="btn">重置</button>
+              </div>
+              </div>
+            </form>
+          </div>
+    </fieldset>
+
+    <form id="uploadFormp1" class='hide' action="#" enctype="multipart/form-data">
+  		<input type="file" name="p1" id="p1" accept="image/png, image/jpg, image/jpeg">
+	</form>
+	<form id="uploadFormp2" class='hide' action="#" enctype="multipart/form-data">
+  		<input type="file" name="p2" id="p2" accept="image/png, image/jpg, image/jpeg">
+	</form>
+	<form id="uploadFormp3" class='hide' action="#" enctype="multipart/form-data">
+  		<input type="file" name="p3" id="p3" accept="image/png, image/jpg, image/jpeg">
+	</form>
+
+	<div class="modal hide" id="uploadModal">
+  <div class="modal-header">
+    <h3>正在上传</h3>
+  </div>
+  <div class="modal-body">
+    <div class="progress progress-striped
+         active">
+      <div class="bar"
+           style="width: 100%;"></div>
+    </div>
+  </div>
+</div>
+</fieldset>

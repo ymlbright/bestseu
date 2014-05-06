@@ -1,0 +1,33 @@
+		<div class="span8">
+		源自:网络社团服务中心(http://www.bestseu.com/)
+		</div>
+		<!--endprint-->
+		<script>
+			$('body').find('span').each(function (){
+				$(this).text(Json[$(this).attr('id')]);
+			});
+			$('body').find('input[type=radio]').each(function (){
+				if ( typeof(Json[$(this).attr('name')]) != 'undefined')
+					if ( Json[$(this).attr('name')] == $(this).val() )
+						$(this).attr("checked",true);
+			});
+
+			function doPrint() { 
+				bdhtml=window.document.body.innerHTML; 
+				sprnstr="<!--startprint-->"; 
+				eprnstr="<!--endprint-->"; 
+				prnhtml=bdhtml.substr(bdhtml.indexOf(sprnstr)+17); 
+				prnhtml=prnhtml.substring(0,prnhtml.indexOf(eprnstr)); 
+				window.document.body.innerHTML=prnhtml; 
+				window.print(); 			
+			}
+			function doPreview() { 
+				wb.execwb(7,1);
+			}
+			function doSet() { 
+				wb.execwb(8,1);
+			}
+		</script>
+	</div>
+  </body>
+ </html>

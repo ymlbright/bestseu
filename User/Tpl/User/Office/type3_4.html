@@ -1,0 +1,42 @@
+<!-- <h3>室内活动场地申请审批</h3> -->
+
+<div class="span10">
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td >活动名称</td>
+              <td >活动编号</td> 
+                <td >申请社团</td>
+                <td >申请时间</td>
+                <td >操作</td>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="approval" id="s">
+      	<tr>
+        	<td >
+              <if condition="$s['aname'] eq ''">
+              	错误的申请表(请直接删除)
+              <else/>
+                {$s['aname']}
+              </if>
+            </td>
+            <td >{$s['aidentifier']}</td>
+        	<td >{:a_getcname($s['cid'])}</td>
+        	<td >{$s['adate']|date='Y-m-d D',###}</td>
+            <td >
+              <switch name="s['astatus']">
+                <case value="U"><a href="{:U('/Office/ShowDetial?type=4&gp=3&index=4&da='.$s['aid'])}">详细</a></case>
+                <case value="D"><a href="{:U('/Office/ShowDetial?type=4&gp=3&index=4&da='.$s['aid'])}">详细(团联审核通过)</a></case>
+                <case value="P"><a href="{:U('/Office/ShowDetial?type=4&gp=3&index=4&da='.$s['aid'])}">详细</a>(已通过)&nbsp;&nbsp;
+                  <a href="{:U('/Print/ShowDetial?type=4&gp=3&index=4&da='.$s['aid'])}">打印</a>
+                </case>
+                <case value="R"><a href="{:U('/Office/ShowDetial?type=4&gp=3&index=4&da='.$s['aid'])}">详细</a>(未通过)</case>
+              </switch>
+            </td>
+        </tr>
+       </volist>
+      </tbody>
+    </table>
+    <div class="pagination">{$page}</div>
+</div>

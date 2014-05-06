@@ -1,0 +1,116 @@
+<include file="Common:header" />
+
+<script src="__PUBLIC__/js/office.js"></script>
+<script>
+	var IndexURL="{:U('/Office/')}";
+</script>
+
+<div class="container-fluid row-fluid">
+<div class="span2">
+    <ul class="nav nav-list">
+    
+    <if condition="($_SESSION['user_power'] gt 19) AND ($_SESSION['user_power'] lt 41)">
+      <!-- 社团用户组 -->
+      <li class="nav-header">
+        <h5>社团办公</h5>
+      </li>
+      <li class="{$type2_1}">
+        <a href="{:U('/Office/Show?type=1&gp=2')}">常规活动申请</a>
+      </li>
+      <li class="{$type2_13}">
+        <a href="{:U('/Office/Show?type=13&gp=2')}">文体专项申请</a>
+      </li>
+      <li class="{$type2_2}">
+        <a href="{:U('/Office/Show?type=2&gp=2')}">电子屏申请</a>
+      </li>
+      <!--
+      <li class="{$type2_3}">
+        <a href="{:U('/Office/Show?type=3&gp=2')}">活动经费审批</a>
+      </li>
+      -->
+      <li class="{$type2_4}">
+        <a href="{:U('/Office/Show?type=4&gp=2')}">室内活动场地申请</a>
+      </li>
+      <li class="{$type2_5}">
+        <a href="{:U('/Office/Show?type=5&gp=2')}">室外活动场地申请</a>
+      </li>
+      <li class="{$type2_6}">
+        <a href="{:U('/Office/Show?type=6&gp=2')}">宣传场地申请</a>
+      </li>
+      <!--
+      <li class="{$type2_7}">
+        <a href="{:U('/Office/Show?type=7&gp=2')}">教室长期借用申请</a>
+      </li>-->
+      <li class="{$type2_14}">
+        <a href="{:U('/Office/Show?type=14&gp=2')}">网上申报流程</a>
+      </li>
+      <li class="nav-header">
+        <h5>社团管理</h5>
+      </li>
+      <li class="{$type2_8}">
+        <a href="{:U('/Office/Show?type=8&gp=2')}">基本信息维护</a>
+      </li>
+      <li class="{$type2_9}">
+        <a href="{:U('/Office/Show?type=9&gp=2')}">活动图片管理</a>
+      </li>
+      <li class="{$type2_11}">
+        <a href="{:U('/Office/Show?type=11&gp=2')}">社团报名审核</a>
+      </li>
+      <li class="{$type2_12}">
+        <a href="{:U('/Office/Show?type=12&gp=2')}">申请表管理</a>
+      </li>
+      <li class="{$type2_10}">
+        <a href="{:U('/Office/Show?type=10&gp=2')}">密码修改</a>
+      </li>
+    </if>
+    
+    <if condition="$_SESSION['user_power'] gt 49">
+      <!-- 团联用户组 -->
+      <li class="nav-header">
+        <h5>团联办公</h5>
+      </li>
+      <li class="{$type3_1}">
+        <a href="{:U('/Office/Show?type=1&gp=3')}">常规活动申请审批</a>
+      </li>
+      <li class="{$type3_9}">
+        <a href="{:U('/Office/Show?type=9&gp=3')}">文体专项申请审批</a>
+      </li>
+      <li class="{$type3_2}">
+        <a href="{:U('/Office/Show?type=2&gp=3')}">电子屏申请审批</a>
+      </li>
+      <!--
+      <li class="{$type3_3}">
+        <a href="{:U('/Office/Show?type=3&gp=3')}">活动经费审批</a>
+      </li>
+      -->
+      <li class="{$type3_4}">
+        <a href="{:U('/Office/Show?type=4&gp=3')}">室内活动场地申请审批</a>
+      </li>
+      <li class="{$type3_5}">
+        <a href="{:U('/Office/Show?type=5&gp=3')}">室外活动场地申请审批</a>
+      </li>
+      <li class="{$type3_6}">
+        <a href="{:U('/Office/Show?type=6&gp=3')}">宣传场地申请审批</a>
+      </li>
+      <li class="{$type3_7}">
+        <a href="{:U('/Office/Show?type=7&gp=3')}">教室长期借用申请审批</a>
+      </li>
+      <li class="{$type3_8}">
+        <a href="{:U('/Office/Show?type=8&gp=3')}">社团成立审批</a>
+      </li>
+    </if>
+     
+    <if condition="($_SESSION['user_power'] lt 11)">
+      <li class="nav-header">
+        <h5>其它</h5>
+      </li>
+      <li class="{$type1_1}">
+        <a href="{:U('/Office/Show?type=1&gp=1')}">社团成立申请</a>
+      </li>
+      <li class="{$type1_2}">
+        <a href="{:U('/Office/Show?type=2&gp=1')}">社团投票统计</a>
+      </li>
+    </if>
+    </ul>
+</div>
+<div class="span10">

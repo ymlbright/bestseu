@@ -1,0 +1,1 @@
+<?php if (!defined('THINK_PATH')) exit();?><h3>社团成立申请暂未开放</h3>

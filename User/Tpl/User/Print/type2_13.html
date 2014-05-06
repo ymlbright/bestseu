@@ -1,0 +1,113 @@
+<!-- <h3>常规活动申请</h3> -->
+<include file="Print:header"/>
+
+<script>
+	var app_type=13;
+	var Json=eval("({$json})");
+	var dSuggestion="{$result['asuggestion']}";
+	var Sstatus="{$result['astatus']}";
+	var id="{$result['aid']}";
+</script>
+
+<div class="span8">
+<div class="table-title">
+	<h3>东南大学学生团体文体专项活动登记表</h3>
+</div>
+
+<div class="control-group">
+    <table class="table table-bordered table-line-style">
+      <tbody>
+        <tr>
+          <td id="table-lable" width="120px">学生团体</td>
+          <td width="300px"><span name="xstt" id="xstt"></span></td>
+          <td id="table-lable" width="120px">活动名称</td>
+          <td width="300px"><span name="hdmc" id="hdmc"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动主办方</td>
+          <td><span name="hdzbf" id="hdzbf"></span></td>
+          <td id="table-lable">活动承办方</td>
+          <td><span name="hdcbf" id="hdcbf"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动时间</td>
+          <td><span name="hdsj" id="hdsj"></span></td>
+          <td id="table-lable">负责人</td>
+          <td><span name="hdcbf" id="hdcbf"></span>&nbsp;手机:<span name="sj" id="sj"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">外来人员或组织</td>
+          <td colspan="3"><span name="wlryhzz" id="wlryhzz"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动意义及预期效果</td>
+          <td colspan="3"><span name="hdyyjyqxg" id="hdyyjyqxg"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动形式</td>
+          <td colspan="3">
+            <label class="radio inline">
+              <input type="radio" name="hdxsop" id="hdxsby" value="表演类" checked>表演类
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="hdxsop" id="hdxsjs" value="竞赛类">竞赛类
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="hdxsop" id="hdxsjz" value="讲座类">讲座类
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="hdxsop" id="hdxsqt" value="其它">其它:
+            </label>
+            <span name="hdxs" id="hdxs"></span>
+          </td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动对象</td>
+          <td><span name="hddx" id="hddx"></span></td>
+          <td id="table-lable">预计参与人数</td>
+          <td><span name="yjcyrs" id="yjcyrs"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动内容</td>
+          <td colspan="3"><span name="hdnr" id="hdnr"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">备注</td>
+          <td colspan="3"><span name="bz" id="bz"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">审批金额</td>
+          <td><span name="spje" id="spje"></span></td>
+          <td id="table-lable">实际报销</td>
+          <td><span name="sjbx" id="sjbx"></span></td>
+        </tr>
+        <tr>
+          <td id="table-lable">场地申请</td>
+          <td colspan="3"><span name="cdsq" id="cdsq"></span></td>
+        </tr>
+          <td id="table-lable" rowspan="2">学生团体联合会意见</td>
+          <td rowspan="2" colspan="3"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">校团委意见</td>
+          <td rowspan="2" colspan="3"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">备注</td>
+          <td rowspan="2" colspan="3"></td>
+        </tr>
+        <tr>
+        </tr>
+      </tbody>
+    </table>
+    
+
+</div>
+
+</div>
+
+<include file="Print:footer"/>

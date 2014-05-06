@@ -1,0 +1,71 @@
+<!-- <h3>申请表管理</h3> -->
+
+
+<div class="span10">
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td >名称</td>
+                <td >时间</td>
+                <td >类型</td>
+                <td >操作</td>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="approval" id="s">
+      	<tr>
+        	<td >
+              <if condition="$s['aname'] eq ''">
+              	附属申请表
+              <else/>
+                {$s['aname']}
+              </if>
+            </td>
+            <td >{$s['adate']|date='Y-m-d D',###}</td>
+            <td >
+              <switch name="s['atype']">
+                <case value="21">常规活动申请 ID:{$s['aidentifier']}</case>
+                <case value="22">电子屏申请</case>
+                <case value="23">活动经费审批</case>
+                <case value="24">室内活动场地申</case>
+                <case value="25">室外活动场地申请</case>
+                <case value="26">宣传场地申请</case>
+                <case value="29">文体专项申请 ID:{$s['aidentifier']}</case>
+              </switch>
+            </td>
+            <td >
+              <switch name="s['astatus']">
+                <case value="U">
+                  <if condition="$s['atype'] eq 29">
+                    <a href="{:U('/Office/ShowDetial?type=12&gp=2&index=13&da=' . $s['aid'])}">详细</a>
+                  <else/>
+                    <a href="{:U('/Office/ShowDetial?type=12&gp=2&index=' . substr($s['atype'],1,1) . '&da=' . $s['aid'])}">详细</a>
+                  </if>
+                </case>
+                <case value="O"><a href="{:U('/Office/ShowDetial?type=12&gp=2&index=' . substr($s['atype'],1,1) . '&da=' . $s['aid'])}">详细(电子审核已通过)</a></case>
+                <case value="D"><a href="{:U('/Office/ShowDetial?type=12&gp=2&index=' . substr($s['atype'],1,1) . '&da=' . $s['aid'])}">详细(团联审核已通过)</a></case>
+                <case value="P">
+                  <switch name="s['atype']">
+                    <case value="29">
+                      <a href="{:U('/Office/ShowDetial?type=12&gp=2&index=13&da=' . $s['aid'])}">详细</a>(已通过)
+                    </case>
+                    <default />
+                      <a href="{:U('/Office/ShowDetial?type=12&gp=2&index=' . substr($s['atype'],1,1) . '&da=' . $s['aid'])}">详细</a>(已通过)
+                  </switch>
+                </case>
+                <case value="R">
+                  <if condition="$s['atype'] eq 29">
+                    <a href="{:U('/Office/ShowDetial?type=12&gp=2&index=13&da=' . $s['aid'])}">详细</a>(未通过)
+                  <else/>
+                    <a href="{:U('/Office/ShowDetial?type=12&gp=2&index=' . substr($s['atype'],1,1) . '&da=' . $s['aid'])}">详细</a>(未通过)
+                  </if>
+                </case>
+              </switch>
+            </td>
+        </tr>
+       </volist>
+      </tbody>
+    </table>
+    
+    <div class="pagination">{$page}</div>
+</div>

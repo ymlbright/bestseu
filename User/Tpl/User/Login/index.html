@@ -1,0 +1,32 @@
+<include file="Common:header" />
+
+<div class"container-fluid row-fluid" >
+	<div class="span11 offset1">
+		<form class="form-horizontal" onsubmit="return Loginin();">
+		  <div class="control-group">
+		    <label class="control-label" for="terror"></label>
+		    <div class="controls">
+		      <p class="text-error" id="terror">{$msg}</p>
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="suser">用户名</label>
+		    <div class="controls">
+		      <input type="text" id="suser" placeholder="一卡通/社团ID">
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="spwd">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+		    <div class="controls">
+		      <input type="password" id="spwd" placeholder="统一身份认证密码">
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <div class="controls">
+		      <button type="submit" class="btn">登录</button>
+		    </div>
+		  </div>
+		</form>
+	</div>
+</div>
+<include file="Common:footer" />

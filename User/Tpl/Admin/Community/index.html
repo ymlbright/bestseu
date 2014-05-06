@@ -1,0 +1,131 @@
+<include file="Common:header" />
+<script>
+	var AddURL="{:U('/Admin/Community/add')}";
+	var GetURL="{:U('/Admin/Community/get')}";
+	var EditURL="{:U('/Admin/Community/edit')}";
+</script>
+<div class="pull-right"><button class="btn btn-primary" id="add_community">添加社团</button></div>
+<div class="span12">
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td width=50px>cid</td>
+                <td width=50px>name</td>
+                <td width=80px>type</td>
+                <td width=100px>point</td>
+                <td width=100px>createtime</td>
+                <td width=100px>status</td>
+                <td width=100px>action</td>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="community" id="v">
+      	<tr>
+        	<td>{$v['cid']}</td>
+        	<td>{$v['cname']} </td>
+        	<td>{$v['ctype']} </td>
+        	<td>{$v['cpoint']} </td>
+          	<td>{$v['ccreatetime']|date='Y-m-d H:i:s',###}</td>
+          	<td>{$v['cstatus']} </td>
+          	<td>
+          		<a href="{:U('/Admin/Community/del?id='.$v['cid'])}">删除</a>&nbsp;&nbsp;
+          		<a href="#" onclick="DoEdit({$v['cid']});">修改</a>&nbsp;&nbsp;
+          		<switch name="v['cstatus']">
+          		<case value="1">
+          			<a href="{:U('/Admin/Community/hide?id='.$v['cid'])}">隐藏</a>&nbsp;&nbsp;
+          			<a href="{:U('/Admin/Community/lock?id='.$v['cid'])}">锁定</a>&nbsp;&nbsp;
+          		</case>
+          		<case value="0">
+          			<a href="{:U('/Admin/Community/show?id='.$v['cid'])}">显示</a>&nbsp;&nbsp;
+          		</case>
+          		<case value="2">
+          			<a href="{:U('/Admin/Community/unlock?id='.$v['cid'])}">解锁</a>
+          		</case>
+          		</switch>
+          	</td>		
+        </tr>
+       </volist>
+      </tbody>
+    </table>
+</div>
+<div class="pagination span12">{$page}</div>
+
+
+
+<div id="caddModal" class="modal hide fade">
+    <div class="modal-header">
+        <a href="#" class="close" data-dismiss="modal">&times;</a>
+        <h3>添加新社团</h3>
+    </div>
+    <div id="modalcontent" class="modal-body">
+    	<div class="control-group">
+		    <label class="control-label" for="stmc">社团名称</label>
+		    <div class="controls">
+		      <input type="text" id="stmc">
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="lx">类&nbsp;&nbsp;&nbsp;&nbsp;型</label>
+		    <div class="controls">
+		      <input type="text" id="lx" placeholder="1-5"><bt/>
+		      1:"学术实践类"; 2:"体育健身类"; 3:"艺术娱乐类"; 4:"文学传媒类"; 5:"志愿服务类";
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="xj">星&nbsp;&nbsp;&nbsp;&nbsp;级</label>
+		    <div class="controls">
+		      <input type="text" id="xj" placeholder="1-100"><br/>
+		      0-9:没星; 10-19:一星; 20-39:二星; 40-59:三星; 60-79:四星; 80-100:五星;
+		    </div>
+		</div>
+      	<div class="control-group">
+		    <label class="control-label" for="cjsj">创建时间</label>
+		    <div class="controls">
+		      <input type="text" id="cjsj" placeholder="例如:2014-04-20">
+		    </div>
+		</div>
+    </div>
+    <div class="modal-footer">
+      <button id="btn_c_add" class="btn">添加</button>
+    </div>
+</div>
+
+<div id="ceditModal" class="modal hide fade">
+    <div class="modal-header">
+        <a href="#" class="close" data-dismiss="modal">&times;</a>
+        <h3>修改社团信息</h3>
+    </div>
+    <div id="modalcontent" class="modal-body">
+    	<div class="control-group">
+		    <label class="control-label" for="cname">社团名称</label>
+		    <div class="controls">
+		      <input type="text" name="cname" id="cname">
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="ctype">类&nbsp;&nbsp;&nbsp;&nbsp;型</label>
+		    <div class="controls">
+		      <input type="text" name="ctype" id="ctype" placeholder="1-5"><bt/>
+		      1:"学术实践类"; 2:"体育健身类"; 3:"艺术娱乐类"; 4:"文学传媒类"; 5:"志愿服务类";
+		    </div>
+		</div>
+		<div class="control-group">
+		    <label class="control-label" for="cpoint">星&nbsp;&nbsp;&nbsp;&nbsp;级</label>
+		    <div class="controls">
+		      <input type="text" name="cpoint" id="cpoint" placeholder="1-100"><br/>
+		      0-9:没星; 10-19:一星; 20-39:二星; 40-59:三星; 60-79:四星; 80-100:五星;
+		    </div>
+		</div>
+      	<div class="control-group">
+		    <label class="control-label" for="ccreatetime">创建时间</label>
+		    <div class="controls">
+		      <input type="text" name="ccreatetime" id="ccreatetime" placeholder="例如:2014-04-20">
+		    </div>
+		</div>
+    </div>
+    <div class="modal-footer">
+      <button id="btn_c_edit" class="btn">修改</button>
+    </div>
+</div>
+<input class="hide" id="cid">
+<include file="Common:footer" />

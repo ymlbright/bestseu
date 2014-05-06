@@ -1,0 +1,1549 @@
+[ 2014-03-27T13:54:17+08:00 ] 127.0.0.1 /t/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.017001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 73 行.
+NOTIC: [8] Undefined variable: nav4 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 76 行.
+NOTIC: [8] Undefined index: user_name E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 81 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.143009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143009s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.020001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.003000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.003000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_end ] --END-- [ RunTime:0.016001s ]
+
+[ 2014-03-27T13:54:23+08:00 ] 127.0.0.1 /t/Login/Login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.017001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `br_user` [ RunTime:0.039002s ]
+SQL: SELECT * FROM `br_user` WHERE ( ykt = '123' )  [ RunTime:0.001000s ]
+SQL: UPDATE `br_user` SET `logintime`=1395899663,`loginip`='127.0.0.1' WHERE ( `uid` = 16 ) [ RunTime:0.058004s ]
+
+[ 2014-03-27T13:54:23+08:00 ] 127.0.0.1 /t/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 73 行.
+NOTIC: [8] Undefined variable: nav4 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 76 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-27T13:54:24+08:00 ] 127.0.0.1 /t/Office.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type3_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 193 行.
+NOTIC: [8] Undefined variable: type3_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 196 行.
+NOTIC: [8] Undefined variable: type3_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 199 行.
+NOTIC: [8] Undefined variable: type3_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 203 行.
+NOTIC: [8] Undefined variable: type3_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 207 行.
+NOTIC: [8] Undefined variable: type3_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 210 行.
+NOTIC: [8] Undefined variable: type3_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 213 行.
+NOTIC: [8] Undefined variable: type3_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 216 行.
+NOTIC: [8] Undefined variable: type3_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 219 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.014001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.027001s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.035002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.035002s ]
+
+[ 2014-03-27T13:54:28+08:00 ] 127.0.0.1 /t/Office/Show/type/1/gp/3.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `br_approval` [ RunTime:0.046002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `br_approval` WHERE ( atype = 21 ) LIMIT 1   [ RunTime:0.010001s ]
+SQL: SELECT * FROM `br_approval` WHERE ( atype = 21 ) ORDER BY adate desc LIMIT 0,30   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type3_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 196 行.
+NOTIC: [8] Undefined variable: type3_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 199 行.
+NOTIC: [8] Undefined variable: type3_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 203 行.
+NOTIC: [8] Undefined variable: type3_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 207 行.
+NOTIC: [8] Undefined variable: type3_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 210 行.
+NOTIC: [8] Undefined variable: type3_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 213 行.
+NOTIC: [8] Undefined variable: type3_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 216 行.
+NOTIC: [8] Undefined variable: type3_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 219 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.072004s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.000000s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.081004s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.082004s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.082005s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.086005s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.087005s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.087005s ]
+
+[ 2014-03-27T13:54:32+08:00 ] 127.0.0.1 /t/Login/Logout.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002001s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-27T13:54:32+08:00 ] 127.0.0.1 /t/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 73 行.
+NOTIC: [8] Undefined variable: nav4 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 76 行.
+NOTIC: [8] Undefined index: user_name E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 81 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-27T13:54:37+08:00 ] 127.0.0.1 /t/Login/Login.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `br_user` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_user` WHERE ( ykt = '213120498' )  [ RunTime:0.001000s ]
+SQL: UPDATE `br_user` SET `logintime`=1395899677,`loginip`='127.0.0.1' WHERE ( `uid` = 12 ) [ RunTime:0.053003s ]
+
+[ 2014-03-27T13:54:37+08:00 ] 127.0.0.1 /t/
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 73 行.
+NOTIC: [8] Undefined variable: nav4 E:\xampp\htdocs\t\User\Runtime\Cache\User\31f71441c69b45e90211c42e2a90e094.php 第 76 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-03-27T13:54:39+08:00 ] 127.0.0.1 /t/Office.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.005000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.005000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.010000s ]
+
+[ 2014-03-27T13:54:41+08:00 ] 127.0.0.1 /t/Office/Show/type/1/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 5 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 117 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 141 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 148 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 156 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 159 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.029059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.031059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.031059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.035060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.038059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.037059s ]
+
+[ 2014-03-27T13:54:56+08:00 ] 127.0.0.1 /t/Office/Show/type/1/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 5 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 117 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 141 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 148 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 156 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 159 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.032059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.033059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.033059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.037059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.039059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.039059s ]
+
+[ 2014-03-27T13:56:26+08:00 ] 127.0.0.1 /t/Office/Show/type/1/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001001s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 5 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 117 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 141 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 148 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 156 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 159 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.032059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.034059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.034059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.039060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.040059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.040059s ]
+
+[ 2014-03-27T13:57:46+08:00 ] 127.0.0.1 /t/Office/Show/type/4/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 59 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 67 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 75 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 78 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 80 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 80 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.037060s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.039060s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.039060s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.042060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.044060s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.044060s ]
+
+[ 2014-03-27T13:59:43+08:00 ] 127.0.0.1 /t/Office/Show/type/4/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 68 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 76 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 84 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 87 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.024058s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.026058s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.025058s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.030058s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.031059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.030059s ]
+
+[ 2014-03-27T14:00:24+08:00 ] 127.0.0.1 /t/Office/Show/type/4/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 68 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 76 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 84 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 87 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.024058s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.026059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.026059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.029059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.031059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.031059s ]
+
+[ 2014-03-27T14:01:11+08:00 ] 127.0.0.1 /t/Office/Show/type/4/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 68 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 76 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 84 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 87 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.029059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.030059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.030059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.033059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.035059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.035059s ]
+
+[ 2014-03-27T14:01:22+08:00 ] 127.0.0.1 /t/Office/Show/type/5/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001001s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\27d15c959a4db96871d94eb7b3da1cc2.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\27d15c959a4db96871d94eb7b3da1cc2.php 第 77 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\27d15c959a4db96871d94eb7b3da1cc2.php 第 84 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\27d15c959a4db96871d94eb7b3da1cc2.php 第 92 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\27d15c959a4db96871d94eb7b3da1cc2.php 第 95 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\27d15c959a4db96871d94eb7b3da1cc2.php 第 97 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\27d15c959a4db96871d94eb7b3da1cc2.php 第 97 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.030059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.031059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.030059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.035060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.036059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.036059s ]
+
+[ 2014-03-27T14:04:41+08:00 ] 127.0.0.1 /t/Office/Show/type/4/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 68 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 76 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 84 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 87 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\af76d4a8604a3c8b0e5f30d93bd5b937.php 第 89 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.035059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.037059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.036059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.041059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.042059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.042059s ]
+
+[ 2014-03-27T14:04:48+08:00 ] 127.0.0.1 /t/Office/Show/type/2/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\ce6e4d82a2454245aafb73b3c2578767.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\ce6e4d82a2454245aafb73b3c2578767.php 第 62 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\ce6e4d82a2454245aafb73b3c2578767.php 第 83 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\ce6e4d82a2454245aafb73b3c2578767.php 第 91 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\ce6e4d82a2454245aafb73b3c2578767.php 第 94 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\ce6e4d82a2454245aafb73b3c2578767.php 第 96 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\ce6e4d82a2454245aafb73b3c2578767.php 第 96 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.030059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.031059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.030059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.035059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.036059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.035059s ]
+
+[ 2014-03-27T14:04:50+08:00 ] 127.0.0.1 /t/Office/Show/type/13/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 5 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008000s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 103 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 125 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 132 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 140 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 143 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 145 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\d9b43579cdfa268fd7b3cc873b4b0332.php 第 145 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.032059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.033059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.033059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.038059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.041060s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.040060s ]
+
+[ 2014-03-27T14:04:52+08:00 ] 127.0.0.1 /t/Office/Show/type/1/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 5 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 117 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 141 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 148 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 156 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 159 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\f61d69792a03e54e9c8224d009383c60.php 第 161 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.031059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.033059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.033059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.037060s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.039059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.038059s ]
+
+[ 2014-03-27T14:04:58+08:00 ] 127.0.0.1 /t/Office/Show/type/6/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 3 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.007001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 70 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 86 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 93 行.
+NOTIC: [8] Undefined variable: result E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 93 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 101 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 104 行.
+NOTIC: [8] Undefined variable: review E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 106 行.
+NOTIC: [8] Undefined variable: check E:\xampp\htdocs\t\User\Runtime\Cache\User\c9da7910400bb4b1918c1cca580bee03.php 第 106 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:1.031059s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.032059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.031059s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-1.036059s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-1.037059s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-1.037059s ]
+
+[ 2014-03-27T14:04:59+08:00 ] 127.0.0.1 /t/Office/Show/type/8/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_9 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 176 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.007001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.006001s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.011001s ]
+
+[ 2014-03-27T14:05:00+08:00 ] 127.0.0.1 /t/Community/GetDetial/id/6.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of CommunityAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\CommunityAction.class.php 第 105 行.
+SQL: SHOW COLUMNS FROM `br_community` [ RunTime:0.008001s ]
+SQL: SELECT * FROM `br_community` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+
+[ 2014-03-27T14:05:03+08:00 ] 127.0.0.1 /t/Office/Show/type/9/gp/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001000s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of OfficeAction::Show() should be compatible with Action::show($content, $charset = '', $contentType = '', $prefix = '') E:\xampp\htdocs\t\User\Lib\Action\User\OfficeAction.class.php 第 217 行.
+SQL: SHOW COLUMNS FROM `br_filemap` [ RunTime:0.099006s ]
+SQL: SELECT * FROM `br_filemap` WHERE ( cid = 6 )  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: nav1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 67 行.
+NOTIC: [8] Undefined variable: nav2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 70 行.
+NOTIC: [8] Undefined variable: nav3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 73 行.
+NOTIC: [8] Undefined variable: type2_1 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 142 行.
+NOTIC: [8] Undefined variable: type2_13 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 145 行.
+NOTIC: [8] Undefined variable: type2_2 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 148 行.
+NOTIC: [8] Undefined variable: type2_3 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 152 行.
+NOTIC: [8] Undefined variable: type2_4 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 156 行.
+NOTIC: [8] Undefined variable: type2_5 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 159 行.
+NOTIC: [8] Undefined variable: type2_6 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 162 行.
+NOTIC: [8] Undefined variable: type2_7 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 166 行.
+NOTIC: [8] Undefined variable: type2_8 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 173 行.
+NOTIC: [8] Undefined variable: type2_11 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 179 行.
+NOTIC: [8] Undefined variable: type2_12 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 182 行.
+NOTIC: [8] Undefined variable: type2_10 E:\xampp\htdocs\t\User\Runtime\Cache\User\e5b574611600f340f8971129dc12d3b7.php 第 185 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001000s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+SQL: SHOW COLUMNS FROM `br_file` [ RunTime:0.019001s ]
+SQL: SELECT * FROM `br_file` WHERE ( fid = 6 )  [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant __PUBLIC__ - assumed '__PUBLIC__' E:\xampp\htdocs\t\User\Common\common.php 第 65 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.029002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.028002s ]
+NOTIC: [8] Constant THEME_NAME already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 223 行.
+NOTIC: [8] Constant THEME_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 174 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 175 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000000s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000000s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.035002s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 95 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 96 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php:99) E:\xampp\htdocs\t\ThinkPHP\Lib\Core\View.class.php 第 97 行.
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000000s ]
+INFO: [ view_end ] --END-- [ RunTime:-0.035002s ]
+

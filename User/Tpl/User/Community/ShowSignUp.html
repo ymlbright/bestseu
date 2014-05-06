@@ -1,0 +1,50 @@
+<include file="Common:header" />
+
+<div class="page-header">
+    <h3>申请表查询</h3> 
+</div>
+
+
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td >社团名称</td>
+                <td >申请时间</td>
+                <td >类型</td>
+                <td >操作</td>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="signup" id="s">
+      	<tr>
+        	<td >{:a_getcname($s['cid'])}</td>
+            <td >{$s['sdate']|date='Y-m-d D',###}</td>
+        	<td >社团报名表</td>
+            <td >
+              <switch name="s['sstatus']">
+                <case value="0"><a href="{:U('/Community/SignUpDetial?id='.$s['cid'])}">修改</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="{:U('/Community/DelSignUp?id='.$s['cid'])}">删除</a></case>
+                <case value="1"><a href="{:U('/Community/SignUpDetial?id='.$s['cid'])}">查看</a>(已通过)</case>
+                <case value="2"><a href="{:U('/Community/SignUpDetial?id='.$s['cid'])}">查看</a>(已拒绝)</case>
+              </switch>
+            </td>
+        </tr>
+       </volist>
+       <volist name="approval" id="a">
+      	<tr>
+        	<td >{{$a['acontent1']})</td>
+            <td >{$a['adate']|date='Y-m-d D',###}</td>
+        	<td >社团成立申请表</td>
+            <td >
+              <switch name="a['astatus']">
+                <case value="0"><a href="#">删除</a></case>
+                <case value="1"><a href="#">查看</a>(已通过)</case>
+                <case value="2"><a href="#">查看</a>(已拒绝)</case>
+              </switch>
+            </td>
+        </tr>
+       </volist>
+      </tbody>
+    </table>
+
+
+<include file="Common:footer" />

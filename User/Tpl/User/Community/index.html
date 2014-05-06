@@ -1,0 +1,45 @@
+<include file="Common:header" />
+<div class="container-fluid row-fluid">
+<div class="tabbable tabs-left span2">
+  <ul class="nav nav-tabs">
+  	<li class="{$tab0}">
+      <a href="{:U('/Community/Show?type=0')}">全部</a>
+    </li>
+    <li class="{$tab1}">
+      <a href="{:U('/Community/Show?type=1')}">学术实践类</a>
+    </li>
+    <li class="{$tab2}">
+      <a href="{:U('/Community/Show?type=2')}">体育健身类</a>
+    </li>
+    <li class="{$tab3}">
+      <a href="{:U('/Community/Show?type=3')}">艺术娱乐类</a>
+    </li>
+    <li class="{$tab4}">
+      <a href="{:U('/Community/Show?type=4')}">文学传媒类</a>
+    </li>
+    <li class="{$tab5}">
+      <a href="{:U('/Community/Show?type=5')}">志愿服务类</a>
+    </li>
+  </ul>
+</div>
+<div class="span8 offest1">
+	<ul class="thumbnails">
+    	<volist name="community" id="v">
+            <li class="span2">
+                <a href="{:U('/Community/ShowDetial?id='.$v['cid'])}" class="thumbnail">
+                	<if condition="($v['clogo'] eq '')">
+                    	<img src="__PUBLIC__/img/160x120.gif" alt="">
+                     <else />
+                     	<img src="__PUBLIC__/Upload/HeadPhoto/pic_{$v['clogo']}" alt="" width="160" height="120">
+                     </if>
+                    <h5>{$v['cname']}</h5>
+                    <p>{$v['cslogan']}</p>
+                </a>
+            </li>
+        </volist>
+	</ul>
+
+<div class="pagination">{$page}</div>
+</div>
+</div>
+<include file="Common:footer" />

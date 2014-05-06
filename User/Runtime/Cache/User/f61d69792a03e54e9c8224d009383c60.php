@@ -1,0 +1,185 @@
+<?php if (!defined('THINK_PATH')) exit();?><!-- <h3>常规活动申请</h3> -->
+
+
+<script src="__PUBLIC__/js/ajaxfileupload.js"></script>
+<?php if($review == 1): ?><script>
+	var app_type=1;
+	var Json=eval("(<?php echo ($json); ?>)");
+	var dSuggestion="<?php echo ($result['asuggestion']); ?>";
+	var Sstatus="<?php echo ($result['astatus']); ?>";
+	var id="<?php echo ($result['aid']); ?>";
+	var FormSubmitURL="<?php echo U('/Office/ReSubmit?type=1&gp=2&id='.$result['aid']);?>";
+  var FormUploadURL="<?php echo U('/Upload/File');?>";
+</script>
+<?php else: ?>
+<script>
+	var FormSubmitURL="<?php echo U('/Office/Submit?type=1&gp=2');?>";
+  var FormUploadURL="<?php echo U('/Upload/File');?>";
+</script><?php endif; ?>
+
+
+<div class="table-title">
+	<h3>东南大学学生团体常规活动申请表</h3>
+</div>
+
+<div class="control-group">
+<form id="submitForm" class="form-horizontal" action="#" onsubmit="return Do_Check();">
+    <table class="table table-striped table-bordered table-condensed table-line-style">
+      <tbody>
+        <tr>
+          <td id="table-lable" width="120px">学生团体</td>
+          <td width="300px"><input type="text" class="input-xlarge" name="xstt" id="xstt" value="<?php echo a_getcname($_SESSION['user_xh']);?>" readonly="readonly"></td>
+          <td id="table-lable" width="120px">活动名称</td>
+          <td width="300px"><input type="text" class="input-xlarge" name="hdmc" id="hdmc"></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动主办方</td>
+          <td><input type="text" class="input-xlarge" name="hdzbf" id="hdzbf" value="共青团东南大学委员会"></td>
+          <td id="table-lable">活动承办方</td>
+          <td><input type="text" class="input-xlarge" name="hdcbf" id="hdcbf"></td>
+        </tr>
+        <tr>
+          <td id="table-lable">外来单位</td>
+          <td >
+            <label class="radio inline ">
+              <input type="radio" name="wldwop" id="wldww" value="无" checked>无
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="wldwop" id="wldwy" value="有">有:
+            </label>
+            <input type="text" class="span2" name="wldw" id="wldw" onclick="javascript:$('#wldwy').attr('checked','checked');">
+          <td id="table-lable" width="120px">负责人</td>
+          <td width="300px">
+            <input type="text" class="span1" name="fzr" id="fzr">
+            联系方式:<input type="text" style="width:140px" name="lxfs" id="lxfs">
+          </td>
+		  </td>
+         </tr>
+         <tr>
+          <td id="table-lable">有无来宾</td>
+          <td colspan="3">
+            <label class="radio inline">
+              <input type="radio" name="ywlbop" id="ywlbw" value="无" checked>无
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="ywlbop" id="ywlby" value="有">有:
+            </label>
+            <input type="text" class="span7" name="ywlb" id="ywlb"  onclick="javascript:$('#ywlby').attr('checked','checked');">
+          </td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动形式</td>
+          <td colspan="3">
+            <label class="radio inline">
+              <input type="radio" name="hdxsop" id="hdxsby" value="表演类" checked>表演类
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="hdxsop" id="hdxsjs" value="竞赛类">竞赛类
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="hdxsop" id="hdxsjz" value="讲座类">讲座类
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="hdxsop" id="hdxsqt" value="其它">其它:
+            </label>
+            <input type="text" class="input-xlarge" name="hdxs" id="hdxs"  onclick="javascript:$('#hdxsqt').attr('checked','checked');">
+          </td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动对象</td>
+          <td><input type="text" class="input-xlarge" name="hddx" id="hddx"></td>
+          <td id="table-lable">预计参与人数</td>
+          <td><input type="text" class="input-xlarge" name="yjcyrs" id="yjcyrs"></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动地点</td>
+          <td colspan="3"><input type="text" class="input-xlarge span8" name="hddd" id="hddd"></td>
+        </tr>
+        <tr>
+          <td id="table-lable">活动资源</td>
+          <td><input type="text" class="input-xlarge" name="hdzy" id="hdzy"></td>
+          <td id="table-lable">资金需求</td>
+          <td>
+            <label class="radio inline">
+              <input type="radio" name="zjxqop" id="zjxqw" value="无" checked>无
+            </label>
+            <label class="radio inline ">
+              <input type="radio" name="zjxqop" id="zjxqy" value="有">有:
+            </label>
+            <input type="text" class="input-big" name="zjxq" id="zjxq"  onclick="javascript:$('#zjxqy').attr('checked','checked');">
+        </tr>
+        <tr>
+          <td id="table-lable">活动策划</td>
+          <td colspan="3">
+            <input type="text" name="fname" id="fname" class="hide">
+            <input type="text" name="frname" id="frname" class="hide">
+            <a href="#" id="filename"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <?php if(($check != 1)): ?><button id="btn_uploadfile" type="button" class="btn">上传策划</button>&nbsp;&nbsp;&nbsp;&nbsp;
+              支持类型 *.rar *.zip (请勿使用IE浏览器上传)<?php endif; ?>
+          </td>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">学生团体联合会意见</td>
+          <td rowspan="2"></td>
+          <td id="table-lable" colspan="2">资金审核意见</td>
+        </tr>
+        <tr>
+          <td colspan="2"></td>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">校团委意见</td>
+          <td rowspan="2" colspan="3"></td>
+        </tr>
+        <tr>
+        </tr>
+        <tr>
+          <td id="table-lable" rowspan="2">备注</td>
+          <td rowspan="2" colspan="3"></td>
+        </tr>
+        <tr>
+        </tr>
+        <?php if(($check == 1) AND $result['astatus'] != 'P'): ?><tr>
+            <td id="table-lable">审批意见</td>
+            <td colspan="3"><textarea class="input-xlarge span8" name="spyj" id="spyj" rows="6"></textarea></td>
+          </tr><?php endif; ?>
+      </tbody>
+    </table>
+    
+    <?php if($result['astatus'] != 'U' && isset($result['astatus'])): ?><button id="btn_pass_app" class="btn hide">确定</button>
+        <fieldset>
+    		<legend>审批结果</legend>
+            <p><?php echo ($result['asuggestion']); ?></p>
+        </fieldset><?php endif; ?>
+    <?php if($result['astatus'] == 'U' || ($result['astatus'] != 'P' && $_SESSION['user_power'] > 69)): ?><div class="form-actions">
+    	<div class="pull-right">
+          <?php if($check == 1): ?><button id="btn_pass_app" class="btn btn-success">通过申请</button>
+              <button id="btn_refuse_app" class="btn btn-warning">拒绝申请</button>
+              <button id="btn_del" class="btn btn-danger">删除</button><?php endif; ?>
+          <?php if(($review == 1) AND ($check != 1)): ?><button type="submit" class="btn btn-primary">修改</button>
+              <button type="button" id="btn_del" class="btn btn-danger">删除</button><?php endif; ?>
+          <?php if(($review != 1) AND ($check != 1)): ?><button type="submit" class="btn btn-primary">提交申请</button>
+            <button type="reset" class="btn">重置</button><?php endif; ?>
+        </div>
+	   </div><?php endif; ?>
+    
+
+</form>
+
+<form id="uploadForm" class="hide" action="#" enctype="multipart/form-data">
+  <input type="file" name="file" id="file" accept="application/x-rar-compressed, application/x-zip-compressed">
+</form>
+
+<div class="modal hide" id="uploadModal">
+  <div class="modal-header">
+    <h3>正在上传</h3>
+  </div>
+  <div class="modal-body">
+    <div class="progress progress-striped
+         active">
+      <div class="bar"
+           style="width: 100%;"></div>
+    </div>
+  </div>
+</div>
+
+</div>

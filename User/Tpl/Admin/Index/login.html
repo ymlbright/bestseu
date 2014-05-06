@@ -1,0 +1,41 @@
+<include file="Common:header" />
+<script>
+	var LoginURL="{:U('/Admin/Index/check')}";
+	var VCodeURL="{:U('/Admin/Index/Verify')}";
+</script>
+<div class"container-fluid row-fluid" >
+	<div class="span11 offset1">
+		<form class="form-horizontal" onsubmit="return Loginin();">
+		  <div class="control-group">
+		    <label class="control-label" for="terror"></label>
+		    <div class="controls">
+		      <p class="text-error" id="terror">后台登录</p>
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="suser">用户名</label>
+		    <div class="controls">
+		      <input type="text" id="suser">
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="spwd">密&nbsp;&nbsp;&nbsp;&nbsp;码</label>
+		    <div class="controls">
+		      <input type="password" id="spwd">
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <label class="control-label" for="spwd">验证码</label>
+		    <div class="controls">
+		      <input type="text" id="vcode"> <img id="vcodeimg" src="{:U('/Admin/Index/Verify')}" onclick="return ChangeImg();"/>
+		    </div>
+		  </div>
+		  <div class="control-group">
+		    <div class="controls">
+		      <button type="submit" class="btn">登录</button>
+		    </div>
+		  </div>
+		</form>
+	</div>
+</div>
+<include file="Common:footer" />

@@ -1,0 +1,6 @@
+#
+#	robot.txt for Community Website, Created by Bright
+#
+
+User-agent：*
+Disallow: /st/

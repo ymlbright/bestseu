@@ -1,0 +1,9 @@
+<include file="Common:header" />
+
+<form class="form-horizontal" action="{:U('/Activity/submit')}" method="post">
+	<input type="text" class="hide" value="{$id}" name="id">
+	<input type="text" class="input-xlarge " name="time" id="time" placeholder="时间(格式:yyyy-mm-dd)">
+	<input type="text" class="input-xlarge" name="disc" id="disc" placeholder="简介">
+	<input type="submit" class="btn" value="修改">
+</form>
+<include file="Common:footer" />

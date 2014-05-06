@@ -1,0 +1,142 @@
+<include file="Common:header" />
+
+<script>
+  var VoteSubmitURL = "{:U('/Vote/Vote')}"
+  var VCodeURL = "{:U('/Vote/Verify')}"
+</script>
+
+<div class="row-fluid">
+<div class="span2">
+    <ul class="thumbnails">
+        <li class="span2">
+        <div class="thumbnail pull-left">
+        	<if condition="($community['clogo'] eq '')">
+                 <img src="__PUBLIC__/img/160x120.gif" alt="">
+            <else />
+                 <img src="__PUBLIC__/Upload/HeadPhoto/pic_{$community['clogo']}" alt=""  width="160" height="120">
+            </if>
+            <h4 style="text-align:center">{$community['cname']}</h4>
+        </div>
+        </li>
+    </ul>
+</div>
+<div class="span10 offset3">
+    <table class="table table-striped">
+      <tbody>
+      	<tr>
+        	<td width=60px> <p>现任主席:</p></td>
+        	<td> <p>{$community['cchairman']}</p> </td>
+            <td width=60px> <p>联系方式:</p></td>
+            <td> <p>{$community['ccontact']}</p>  </td>
+        </tr>
+        <tr>
+        	<td> <p>类&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别:</p></td>
+        	<td> <p>{:c_gettype($community['ctype'])} </p> </td>
+            <td> <p>星&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;级:</p></td>
+            <td> <p>{:c_getstars($community['cpoint'])}</p></td>
+        </tr>
+        <tr>
+        	<td> <p>创建时间:</p></td>
+        	<td> <p>{$community['ccreatetime']|date='Y-m-d',###}</p> </td>
+            <td colspan=2> 
+              <a href="{:U('/Community/SignUp?id='.$community['cid'])}" class="btn btn-primary">我要报名</a> &nbsp;
+              <input id="cid" type="text" class="hide" value="{$community['cid']}">
+              <if condition="$community['cid'] neq 107">
+                <a href="#" id="btn_vote_1" class="btn btn-info">我最喜爱的社团投票</a>
+              </if>
+            </td>
+        </tr>
+         <tr>
+         	<td> <p>简&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;介:</p></td>
+            <td colspan=3> <p>{$community['cbrief']}</p> </td>
+        </tr>
+      </tbody>
+    </table>
+	
+    
+    
+    
+    
+</div>
+</div>
+
+<div class="row">
+<div class="span2" style="text-align:center">
+	<h4>社团风采展示:</h4>
+</div>
+
+
+<div id="myCarousel" class="carousel span10 offest2 ">
+  <!-- Carousel items -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <if condition="$compic['p1'] eq ''">
+    	    <img width="100%" src="{:c_getpic(0)}" alt="">
+          <div class="carousel-caption">
+            <h4>图片1</h4>
+          </div>
+      <else/>
+          <img width="100%" src="{:c_getpic($compic['p1'])}" alt="">
+          <div class="carousel-caption">
+            <h4>{$compic['dis1']}</h4>
+         </div>
+      </if>
+    </div>
+    <div class="item next">
+          <if condition="$compic['p2'] eq ''">
+            <img width="100%" src="{:c_getpic(0)}" alt="">
+            <div class="carousel-caption">
+              <h4>图片2</h4>
+            </div>
+          <else/>
+            <img width="100%" src="{:c_getpic($compic['p2'])}" alt="">
+            <div class="carousel-caption">
+              <h4>{$compic['dis2']}</h4>
+            </div>
+          </if>
+    </div>
+    <div class="item">
+          <if condition="$compic['p3'] eq ''">
+            <img width="100%" src="{:c_getpic(0)}" alt="">
+            <div class="carousel-caption">
+              <h4>图片3</h4>
+            </div>
+          <else/>
+            <img width="100%" src="{:c_getpic($compic['p3'])}" alt="">
+            <div class="carousel-caption">
+              <h4>{$compic['dis3']}</h4>
+            </div>
+          </if>
+    </div>
+  </div>
+	<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div>
+
+<script>
+$(document).ready(function(){
+	$('#myCarousel').carousel({
+  		interval: 5000
+	});
+});
+</script>
+
+
+</div>
+
+
+<div id="voteModal" class="modal hide fade">
+    <div class="modal-header">
+        <a href="#" class="close" data-dismiss="modal">&times;</a>
+        <h3>请输入验证码</h3>
+    </div>
+    <div id="modalcontent" class="modal-body">
+      <input id="vcode" type="text" onclick='GetIMG()' class="span2" placeholder="请输入验证码">
+      <img onclick='GetIdcode()' id="vcodeimg" onfocus=this.blur()/>
+    </div>
+    <div class="modal-footer">
+      <button id="btn_revote" class="btn">投票</button>
+    </div>
+</div>
+
+<include file="Common:footer" />

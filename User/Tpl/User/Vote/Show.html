@@ -1,0 +1,50 @@
+<include file="Common:header" />
+
+<script>
+  var VoteSubmitURL = "{:U('/Vote/Vote')}"
+  var VCodeURL = "{:U('/Vote/Verify')}"
+</script>
+
+<h4 style="text-align:center">我最喜爱的社团投票</h4>
+    <h4 style="text-align:center"><a href="{:U('/Office/Show?type=2&gp=1')}">查看投票结果</a></h4>
+<div class="span12">
+    <table class="table table-striped">
+    	<thead>
+        	<tr>
+            	<td >社团名称</td>
+                <td >社长</td>
+                <td >操作</td>
+            </tr>
+        </thead>
+      <tbody>
+      <volist name="c" id="v">
+      	<if condition="$v['cid'] neq 107">
+	      	<tr>
+	        	<td>{$v['cname']}</td>
+	        	<td>{$v['cchairman']} </td>
+	            <td><a href="#" id="btn_vote_2" class="btn btn-info" onclick="javascript:$('#cid').val('{$v['cid']}');$('#btn_vote_1').click();">投票</a></td>
+	        </tr>
+    	</if>
+       </volist>
+      </tbody>
+    </table>
+
+</div>
+<a href="#" id="btn_vote_1" class="btn hide"></a>
+<input id="cid" type="text" class="hide">
+
+<div id="voteModal" class="modal hide fade">
+    <div class="modal-header">
+        <a href="#" class="close" data-dismiss="modal">&times;</a>
+        <h3>请输入验证码</h3>
+    </div>
+    <div id="modalcontent" class="modal-body">
+      <input id="vcode" type="text" onclick='GetIMG()' class="span2" placeholder="请输入验证码">
+      <img onclick='GetIdcode()' id="vcodeimg" onfocus=this.blur()/>
+    </div>
+    <div class="modal-footer">
+      <button id="btn_revote" class="btn">投票</button>
+    </div>
+</div>
+
+<include file="Common:footer" />
